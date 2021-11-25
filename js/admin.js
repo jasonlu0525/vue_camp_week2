@@ -23,7 +23,7 @@ createApp({
                     console.dir(err);
                     if (!err.response.data.success) {
                         alert(err.response.data.message);
-                        history.go(-1);
+                        location = "index.html"
                     }
 
                 })

@@ -49,7 +49,7 @@ createApp({
                     }, 0);
 
                     setTimeout(() => {
-                        location.pathname = "admin.html"
+                        location.href= "/admin.html"
                     }, 1000);
                 }
 
